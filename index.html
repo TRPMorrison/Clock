@@ -8,31 +8,29 @@
     <link href='http://fonts.googleapis.com/css?family=Parisienne|Codystar|Meddon|Playfair+Display+SC' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
-    <div class="wrapper">
-        <div id="normal"></div>
+<body onload="startTime()">
+    <div id="time">
+        <div class="wrapper">
+            <div id="normal">
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="hex"></div>
+        </div>
+        <div class="wrapper">
+            <div class="hard"></div>
+        </div>
     </div>
-
-
-    <div class="wrapper">
-        <div class="hex"></div>
-    </div>
-
-
-    <div class="wrapper">
-        <div class="hard"></div>
-    </div>
-
-
-    <script src="main.js">
-    // function getTime(secs) {
-    var now = new Date();
-    var hours = now.getHours();
-    var minutes = now.getMinutes();
-    var seconds = now.getSeconds();
-    document.write(hours + ":" + minutes + ":" + seconds);
-    // }
-    </script>
 </body>
+<script src="main.js">
+// function getTime() {
+    var now = new Date;
+    var hours = now.getHours;
+    var minutes = now.getMinutes;
+    var seconds = now.getSeconds;
+
+document.write(hours + ":" + minutes + ":" + seconds);
+// }
+</script>
 
 </html>
