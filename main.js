@@ -5,4 +5,4 @@ function getTime() {
     var seconds = now.getSeconds;
 
 document.write(hours + ":" + minutes + ":" + seconds);
-// }
+}
